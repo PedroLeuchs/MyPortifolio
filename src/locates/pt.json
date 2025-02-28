@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "name": "Início",
+      "title": ["Bem Vindo"],
+      "text": ["Meu nome é Pedro Leuchs,", " eu sou desenvolvedor front-end."],
+      "url": "#home"
+    },
+    {
+      "name": "Sobre",
+      "title": ["Sobre mim", "Soft skills", "Hard skills"],
+      "text": [
+        "Meu nome é Pedro, tenho 20 anos e moro em Toledo, Paraná, Brasil. Sou formado como Técnico em Informática pelo IFPR – Campus Assis Chateaubriand e estou no último semestre do curso de Análise e Desenvolvimento de Sistemas no Biopark Educação. Pretendo seguir carreira como desenvolvedor Front-End.",
+        "Sou um desenvolvedor web apaixonado por soluções front-end, com forte expertise em React e Tailwind. Utilizo HTML, CSS e JavaScript para criar interfaces dinâmicas e responsivas que proporcionam experiências excepcionais ao usuário. Meu objetivo é transformar ideias em soluções digitais eficientes que engajem e inspirem.",
+        "Além das habilidades técnicas, valorizo a resolução de problemas, o trabalho em equipe e a comunicação clara, buscando sempre inovação e qualidade em cada projeto. Meu objetivo é desenvolver aplicações funcionais e intuitivas que façam a diferença.",
+        "Especialidades"
+      ],
+      "url": "#services"
+    },
+    {
+      "name": "Projetos",
+      "title": ["Bem Vindo"],
+      "text": [
+        "Fechar",
+        "Acesse essee projeto",
+        "Saiba mais",
+        " Neste projeto, utilizei a GSAP pela primeira vez, explorando animações para aprimorar minhas habilidades em front-end. Desenvolvido com Next.js, Tailwind CSS e JavaScript, foquei na performance, experiência do usuário e acessibilidade, o que me motivou a aprofundar ainda mais nesse universo.",
+        " Desenvolvi a landing page da Anatonelly Tech, aprimorando minhas habilidades com GSAP e explorando novas técnicas que elevaram a qualidade do projeto. Utilizei JavaScript, Next.js e Tailwind CSS, focando em performance, responsividade e animações fluidas para melhorar a experiência do usuário.",
+        " Na Anatonelly LLC, utilizei JavaScript com Next.js e Tailwind CSS, aplicando GSAP para criar animações dinâmicas na página. Esse projeto me permitiu aperfeiçoar ainda mais minhas habilidades em front-end, explorando técnicas avançadas de animação e otimização de performance."
+      ],
+      "url": "#portfolio"
+    },
+    {
+      "name": "Experiências",
+      "title": ["Bem Vindo"],
+      "text": ["Animação de texto digitado - Pavan Kumar Patruni"],
+      "url": "#about"
+    },
+    {
+      "name": "Contato",
+      "title": ["Bem Vindo"],
+      "text": ["Animação de texto digitado - Pavan Kumar Patruni"],
+      "url": "#contact"
+    }
+  ]
+}

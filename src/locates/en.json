@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "name": "HomePage",
+      "title": ["Welcome"],
+      "text": ["My name is Pedro Leuchs, ", "I'm a front-end developer."],
+      "url": "#home"
+    },
+    {
+      "name": "About",
+      "title": ["About me", "Soft skills", "Hard skills"],
+      "text": [
+        "My name is Pedro, I am 20 years old, and I live in Toledo, Paraná, Brazil. I have a technical degree in Information Technology from IFPR – Assis Chateaubriand Campus, and I am in my final semester of the Systems Analysis and Development program at Biopark Educação. I intend to pursue a career as a Front-End Developer.",
+        "I am a passionate web developer focused on front-end solutions, with strong expertise in React and Tailwind. I use HTML, CSS, and JavaScript to create dynamic and responsive user interfaces that deliver exceptional user experiences. My goal is to turn ideas into efficient digital solutions that engage and inspire.",
+        "In addition to my technical skills, I value problem-solving, teamwork, and clear communication, always striving for innovation and quality in every project. My goal is to develop functional and intuitive applications that make a difference.",
+        "Specialties"
+      ],
+      "url": "#about"
+    },
+    {
+      "name": "Projects",
+      "title": ["Welcome"],
+      "text": [
+        "Close",
+        "Access this project",
+        "Learn more",
+        " In this project, I used GSAP for the first time, exploring animations to enhance my front-end skills. Developed with Next.js, Tailwind CSS, and JavaScript, I focused on performance, user experience, and accessibility, which inspired me to dive deeper into this field.",
+        "I developed the landing page for Anatonelly Tech, enhancing my skills with GSAP and exploring new techniques that improved the project's quality. I used JavaScript, Next.js, and Tailwind CSS, focusing on performance, responsiveness, and smooth animations to enhance the user experience.",
+        " At Anatonelly LLC, I used JavaScript with Next.js and Tailwind CSS, applying GSAP to create dynamic animations on the page. This project allowed me to further refine my front-end skills, exploring advanced animation techniques and performance optimization."
+      ],
+      "url": "#projects"
+    },
+    {
+      "name": "Experiences",
+      "title": ["Welcome"],
+      "text": ["Typewriting text css animation - Pavan Kumar Patruni"],
+      "url": "#experences"
+    },
+    {
+      "name": "Contact",
+      "title": ["Welcome"],
+      "text": ["Typewriting text css animation - Pavan Kumar Patruni"],
+      "url": "#contact"
+    }
+  ]
+}
