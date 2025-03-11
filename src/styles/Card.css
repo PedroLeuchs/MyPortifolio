@@ -1,0 +1,25 @@
+@keyframes spin-gradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-gradient {
+  animation: spin-gradient 3s linear infinite;
+}
+
+@keyframes apperText {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50vh;
+  }
+}
+
+.animateApperText {
+  animation: apperText 1s linear;
+}

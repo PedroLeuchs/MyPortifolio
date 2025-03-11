@@ -1,0 +1,26 @@
+/* Social.css */
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 160px; /* Ajuste o tamanho conforme necessário */
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.social-link h1 {
+  display: none;
+  font-size: 1.25rem; /* Ajuste conforme necessário */
+  transform: translateX(-100%); /* Começa fora da tela à esquerda */
+  transition: transform 0.3s ease; /* Transição do movimento */
+}
+
+.social-link:hover {
+  color: #6366f1; /* Indica o hover color */
+}
+
+.social-link:hover h1 {
+  transform: translateX(0); /* Move o nome para a posição original */
+  display: flex;
+}

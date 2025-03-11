@@ -10,7 +10,6 @@ export interface Section {
 
 interface ProjectsPageProps {
   section: Section;
-  language: "en" | "pt";
   indexImg: number;
 }
 
@@ -47,12 +46,12 @@ const AboutPage: React.FC<ProjectsPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="h-screen flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="h-screen w-full flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform "
     >
       <img
         src="./assets/datail_extra.svg"
         alt="Detalhe"
-        className={`h-screen absolute left-44 animate-pulse ${
+        className={`h-screen absolute left-44 animate-pulse -z-20${
           indexImg % 2 === 0 ? "rotate-180 " : ""
         } drop-shadow-lg-custom`}
       />

@@ -32,14 +32,25 @@
     },
     {
       "name": "Experiências",
-      "title": ["Bem Vindo"],
-      "text": ["Animação de texto digitado - Pavan Kumar Patruni"],
+      "title": ["Global Transportes", "STW - Automação"],
+      "text": [
+        "Desenvolvedor Front-End• Dez 2023 – Jul 2024",
+        "Minha experiência profissional inclui um estágio como desenvolvedor front-end, onde trabalhei com tecnologias como JSX e TSX utilizando o framework Next.js, além de empregar o Tailwind CSS para estilização. Durante este estágio, desenvolvi uma base sólida em desenvolvimento web, aprimorando minhas habilidades em criar interfaces de usuário eficientes e responsivas. Esta oportunidade também me permitiu colaborar estreitamente com outros desenvolvedores, designers e stakeholders, fortalecendo minha capacidade de comunicação e trabalho em equipe.",
+        "Desenvolvedor Full-Stack • Ago 2024 – Fev 2025",
+        "Atuei no desenvolvimento de soluções completas com Laravel e Vue.js, abrangendo desde a modelagem e consulta de dados no back-end até a interface no front-end. Posteriormente, foquei no desenvolvimento front-end de um projeto utilizando React e Tailwind CSS. Mais recentemente, integrei a equipe responsável pela implementação do sistema da Siemens em uma maltaria da Agraria, contribuindo para a digitalização e automação dos processos."
+      ],
       "url": "#about"
     },
     {
       "name": "Contato",
-      "title": ["Bem Vindo"],
-      "text": ["Animação de texto digitado - Pavan Kumar Patruni"],
+      "title": [
+        "Pedro Leuchs",
+        "Redes Sociais",
+        "Email",
+        "Telefone",
+        "Currículo"
+      ],
+      "text": ["pedroleuchs01@gmail.com", "+55 (44) 92002-7613"],
       "url": "#contact"
     }
   ]

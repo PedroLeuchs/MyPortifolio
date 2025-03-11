@@ -32,14 +32,19 @@
     },
     {
       "name": "Experiences",
-      "title": ["Welcome"],
-      "text": ["Typewriting text css animation - Pavan Kumar Patruni"],
+      "title": ["Global Transportes", "STW - Automação"],
+      "text": [
+        "Front-End Developer • Dec 2023 – Jul 2024",
+        "My professional experience includes an internship as a front-end developer, where I worked with technologies such as JSX and TSX using the Next.js framework, as well as employing Tailwind CSS for styling. During this internship, I developed a solid foundation in web development, enhancing my skills in creating efficient and responsive user interfaces. This opportunity also allowed me to collaborate closely with other developers, designers, and stakeholders, strengthening my communication and teamwork abilities.",
+        "Full-Stack Developer • Aug 2024 – Feb 2025",
+        "I worked on the development of complete solutions using Laravel and Vue.js, covering everything from back-end data modeling and queries to the front-end interface. Later, I focused on front-end development for a project using React and Tailwind CSS. More recently, I joined the team responsible for implementing the Siemens system in a malting plant of Agraria, contributing to the digitization and automation of processes."
+      ],
       "url": "#experences"
     },
     {
       "name": "Contact",
-      "title": ["Welcome"],
-      "text": ["Typewriting text css animation - Pavan Kumar Patruni"],
+      "title": ["Pedro Leuchs", "Social Midia", "Email", "Phone", "Curriculum"],
+      "text": ["pedroleuchs01@gmail.com", "+55 (44) 92002-7613"],
       "url": "#contact"
     }
   ]

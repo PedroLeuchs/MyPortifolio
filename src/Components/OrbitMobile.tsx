@@ -28,14 +28,14 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
         return (
           <div
             key={index}
-            className="lg:flex hidden sphere3d absolute w-20 h-20 bg-indigo-600 rounded-full flex-col items-center justify-center text-white shadow-lg p-2"
+            className="lg:hidden sphere3dMobile absolute w-20 h-20 bg-indigo-600 rounded-full flex flex-col items-center justify-center text-white shadow-lg p-2"
             style={{
               transform: `rotate(${
                 (angle * 180) / Math.PI
               }deg) translate(${radius}px) rotate(${
                 -(angle * 180) / Math.PI
               }deg)`,
-              animation: `orbitAnimation  ${
+              animation: `orbitAnimationMobile  ${
                 elements.length * 4
               }s linear infinite`,
               animationDelay: `-${
@@ -44,7 +44,7 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
             }}
           >
             {item.icon}
-            <span className="text-base text-center font-light text-white absolute bottom-8">
+            <span className="lg:text-base text-sm text-center w-10/12 font-light text-white absolute top-4">
               {item.name}
             </span>
           </div>

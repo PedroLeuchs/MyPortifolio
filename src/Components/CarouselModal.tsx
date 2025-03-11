@@ -31,7 +31,7 @@ const CarouselModal: FC<CarouselModalProps> = ({ items, section }) => {
   };
 
   return (
-    <div className="w-full max-w-[60%] h-4/5 overflow-hidden flex items-center justify-center relative">
+    <div className="w-full lg:max-w-[60%] h-4/5 overflow-hidden flex items-center justify-center relative">
       <div
         className="w-full h-full flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${index * 100}%)` }}
@@ -40,9 +40,9 @@ const CarouselModal: FC<CarouselModalProps> = ({ items, section }) => {
           ? items.map((item, i) => (
               <div
                 key={i}
-                className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center bg-neutral-800 rounded-lg p-4"
+                className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center  rounded-lg p-4"
               >
-                <div className="flex flex-col w-2/3 h-[80%] items-center justify-center border border-indigo-500 bg-slate-900 p-10 gap-5 rounded-lg shadow-lg shadow-neutral-700">
+                <div className="flex flex-col lg:w-2/3 w-full h-[80%] items-center justify-center border border-indigo-900 bg-slate-900 lg:p-10 p-2 gap-5 rounded-lg shadow-lg shadow-neutral-700">
                   <h2 className=" text-2xl font-semibold w-full text-start p-3">
                     {item.title}
                   </h2>
@@ -72,15 +72,15 @@ const CarouselModal: FC<CarouselModalProps> = ({ items, section }) => {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute left-[5%] top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/80 p-2 rounded-full shadow-md"
+        className="absolute left-[5%] top-1/2 -translate-y-1/2 bg-indigo-500 hover:bg-indigo-600 cursor-pointer p-2 rounded-full shadow-lg shadow-black"
       >
-        <ChevronLeft size={24} color="black" />
+        <ChevronLeft size={24} color="white" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-[5%] top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/80 p-2 rounded-full shadow-md"
+        className="absolute right-[5%] top-1/2 -translate-y-1/2 bg-indigo-500 hover:bg-indigo-600 cursor-pointer p-2 rounded-full shadow-lg shadow-black"
       >
-        <ChevronRight size={24} color="black" />
+        <ChevronRight size={24} color="white" />
       </button>
     </div>
   );
