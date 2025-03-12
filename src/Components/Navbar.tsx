@@ -45,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ sections, setLanguage, language }) => {
   }, [sections]);
 
   return (
-    <nav className="fixed top-0 left-0 max-w-screen w-full bg-gray-900 bg-opacity-70 backdrop-blur-md text-white shadow-md z-10 transition-all duration-300 h-[9vh] flex items-center lg:justify-between justify-around ">
+    <nav className="fixed top-0 left-0 max-w-screen w-full bg-gray-900 bg-opacity-70 backdrop-blur-md text-white shadow-md z-10 transition-all duration-300 h-[9vh] flex items-center justify-between px-4">
       {/* Menu Normal (Desktop) */}
       <div className="hidden md:flex w-3/5 h-full">
         <ul className="w-full h-full flex justify-start">
