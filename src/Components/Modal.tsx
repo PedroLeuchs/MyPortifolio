@@ -73,18 +73,20 @@ const Modal: FC<ModalProps> = ({
               alt=""
               className="lg:h-2/3 h-2/5 rounded-lg border shadow-md shadow-slate-500 "
             />
-            <span className="lg:h-1/3 h-3/5 flex flex-col w-full items-start justify-center gap-5 p-5">
-              <span className="p-5 text-lg">{ModalDescription}</span>
-              <a
-                href={ModalLink}
-                target="_blank"
-                className="text-blue-500 underline text-xl"
-              >
-                {section.text[1]}
-              </a>
+            <span className="lg:h-1/3 h-3/5 flex flex-col w-full items-start justify-center gap-5 lg:p-5 p-2">
+              <span className="lg:p-5 p-0 lg:text-lg md:text-base text-sm">
+                {ModalDescription}
+              </span>
             </span>
           </Dialog.Description>
-          <div className="w-full flex items-end justify-end">
+          <div className="w-full flex items-center justify-between">
+            <a
+              href={ModalLink}
+              target="_blank"
+              className="text-blue-500 underline lg:text-xl md:text-lg text-base"
+            >
+              {section.text[1]}
+            </a>
             <Dialog.Close asChild>
               <button className="px-4 py-2 bg-red-700 rounded-md text-lg font-semibold hover:cursor-pointer ">
                 {section.text[0]}

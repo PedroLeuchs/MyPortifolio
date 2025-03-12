@@ -16,11 +16,9 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
   if (!isClient) return null;
 
   return (
-    <div className="relative lg:w-[500px] lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex items-center justify-center rounded-full border-2 border-indigo-500 ">
+    <div className="relative lg:w-[500px] md:w-[400px] w-[260px] aspect-square flex items-center justify-center rounded-full border-2 border-indigo-500 ">
       {/* Texto Central */}
-      <div className="absolute text-white text-2xl font-bold">
-        {centralText}
-      </div>
+      <div className="absolute text-white text-xl font-bold">{centralText}</div>
 
       {/* Esferas Orbitando */}
       {elements.map((item, index) => {
@@ -44,7 +42,7 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
             }}
           >
             {item.icon}
-            <span className="lg:text-base text-sm text-center w-10/12 font-light text-white absolute top-4">
+            <span className="lg:text-base text-xs text-center w-10/12 font-light text-white absolute top-3">
               {item.name}
             </span>
           </div>

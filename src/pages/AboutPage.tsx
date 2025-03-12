@@ -24,37 +24,37 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
   const elements = [
     {
       icon: (
-        <RiTailwindCssFill className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <RiTailwindCssFill className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "Tailwind CSS",
     },
     {
       icon: (
-        <FaReact className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <FaReact className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "React",
     },
     {
       icon: (
-        <FaNodeJs className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <FaNodeJs className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "Node.js",
     },
     {
       icon: (
-        <FaHtml5 className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <FaHtml5 className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "HTML5",
     },
     {
       icon: (
-        <IoLogoCss3 className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <IoLogoCss3 className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "CSS3",
     },
     {
       icon: (
-        <SiJavascript className="text-white lg:top-6 bottom-4 absolute lg:text-4xl text-2xl" />
+        <SiJavascript className="text-white lg:top-6 bottom-3 absolute lg:text-4xl text-2xl" />
       ),
       name: "JavaScript",
     },
@@ -70,7 +70,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="h-screen flex lg:flex-row flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="min-h-[91vh] flex lg:flex-row flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <img
         src="/assets/datail_extra.svg"

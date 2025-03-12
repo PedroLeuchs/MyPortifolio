@@ -54,10 +54,10 @@ body {
 
 @keyframes orbitAnimationMobile {
   from {
-    transform: rotate(0deg) translate(150px) rotate(0deg);
+    transform: rotate(0deg) translate(130px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translate(150px) rotate(-360deg);
+    transform: rotate(360deg) translate(130px) rotate(-360deg);
   }
 }
 
@@ -81,8 +81,8 @@ body {
 }
 
 .sphere3dMobile {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   background: radial-gradient(circle at 30% 30%, #4338ca 5%, #1e1b4b 80%);
   border-radius: 50%;
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.4),

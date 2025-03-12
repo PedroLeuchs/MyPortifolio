@@ -46,7 +46,7 @@ const AboutPage: React.FC<ProjectsPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="h-screen w-full flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform "
+      className="min-h-[91vh] w-full flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform "
     >
       <img
         src="./assets/datail_extra.svg"

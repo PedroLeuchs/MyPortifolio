@@ -16,7 +16,7 @@ const SocialMidia: React.FC<SocialMidiaProps> = ({ icon, linK, name }) => {
       {/* icon */}
       <div className="h-12">{icon}</div>
       {/* name */}
-      <h1 className="text-2xl">{name}</h1>
+      <h1 className="text-2xl lg:flex hidden">{name}</h1>
     </a>
   );
 };

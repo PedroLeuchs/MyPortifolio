@@ -88,7 +88,7 @@ const HomePage: React.FC<HomePageProps> = ({ section, language, indexImg }) => {
     <section
       id={section.url.substring(1)}
       key={section.url}
-      className="font-poppins max-w-screen h-screen flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="font-poppins max-w-screen min-h-[91vh] flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <img
         src="/assets/datail_extra.svg"

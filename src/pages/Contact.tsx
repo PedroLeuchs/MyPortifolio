@@ -19,17 +19,17 @@ interface ContactPageProps {
 const Contact: React.FC<ContactPageProps> = ({ section }) => {
   const socialMedias = [
     {
-      icon: <FaGithub className=" text-5xl" />,
+      icon: <FaGithub className=" lg:text-5xl md:text-4xl text-3xl" />,
       name: "GitHub",
       linK: "https://github.com/PedroLeuchs",
     },
     {
-      icon: <FaInstagram className=" text-5xl" />,
+      icon: <FaInstagram className=" lg:text-5xl md:text-4xl text-3xl" />,
       name: "Instagram",
       linK: "https://www.instagram.com/pedro_leuchs",
     },
     {
-      icon: <FaLinkedin className=" text-5xl" />,
+      icon: <FaLinkedin className=" lg:text-5xl md:text-4xl text-3xl" />,
       name: "Linkedin",
       linK: "https://www.linkedin.com/in/pedro-henrique-dos-santos-leuchs-899456244/",
     },
@@ -39,16 +39,16 @@ const Contact: React.FC<ContactPageProps> = ({ section }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="lg:h-[50vh] h-[93.4vh] w-full max-w-screen flex flex-col items-start justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="lg:h-[50vh] h-[91vh] w-full max-w-screen flex flex-col items-start justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <hr className="w-full border-t-2 drop-shadow-lg-custom border-indigo-500 animate-pulse " />
       {/* footer */}
       <div className="w-full h-full bg-neutral-900 lg:flex-row flex flex-col items-center justify-center gap-5">
-        <div className="flex-1/3 lg:h-full lg:w-auto w-full flex flex-col justify-start items-center">
+        <div className="flex-1/3 h-1/3 lg:h-full lg:w-auto w-full flex flex-col justify-start items-center">
           {/* Photo */}
           <div className="h-2/3 flex flex-col justify-start items-center ">
             <hr className="h-1/4 w-[2px] bg-indigo-500 border-0 animate-pulse drop-shadow-lg-custom" />
-            <div className="lg:w-[180px] lg:h-[180px] w-[120px] h-[120px] rounded-full drop-shadow-lg-custom2">
+            <div className="lg:w-[180px] aspect-square w-[100px] rounded-full drop-shadow-lg-custom2">
               <img
                 className="rounded-full border-indigo-500 border-2 "
                 src="./assets/myPhoto.jpg"
@@ -56,7 +56,7 @@ const Contact: React.FC<ContactPageProps> = ({ section }) => {
               />
             </div>
             <div className="flex items-end gap-1">
-              <h1 className="lg:text-3xl md:text-2xl text-xl text-white mt-5">
+              <h1 className="lg:text-3xl md:text-2xl text-xl text-white lg:mt-5 mt-2">
                 {section.title[0]}
               </h1>
               <span className="lg:text-6xl md:text-4xl text-2xl text-indigo-400">
@@ -91,23 +91,23 @@ const Contact: React.FC<ContactPageProps> = ({ section }) => {
         {/* Contact me */}
         <div className="flex-1/3 flex flex-col items-start justify-center gap-5 pl-16">
           <div className="flex flex-col gap-1 ">
-            <h1 className="lg:text-2xl text-xl text-white">
+            <h1 className="lg:text-2xl md:text-xl text-lg text-white">
               {section.title[2]}
             </h1>
             <div className="flex items-center justify-center gap-5 p-4">
               <MdEmail className="text-3xl text-indigo-500" />
-              <h1 className="lg:text-lg text-base text-white p-2">
+              <h1 className="lg:text-lg md:text-base text-sm text-white p-2">
                 {section.text[0]}
               </h1>
             </div>
           </div>
           <div className="flex flex-col gap-1 ">
-            <h1 className="lg:text-2xl text-xl text-white">
+            <h1 className="lg:text-2xl md:text-xl text-lg text-white">
               {section.title[3]}
             </h1>
             <div className="flex items-center justify-center gap-5 p-4">
               <FaPhone className="text-3xl text-indigo-500" />
-              <h1 className="lg:text-lg text-base text-white p-2">
+              <h1 className="lg:text-lg md:text-base text-sm text-white p-2">
                 {section.text[1]}
               </h1>
             </div>

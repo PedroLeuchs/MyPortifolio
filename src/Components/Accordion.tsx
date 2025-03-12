@@ -83,7 +83,7 @@ const AccordionContent = React.forwardRef<
     {...props}
     ref={forwardedRef}
   >
-    <div className="px-5 py-[15px]">{children}</div>
+    <div className="px-5 lg:py-4 py-2">{children}</div>
   </Accordion.Content>
 ));
 
