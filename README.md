@@ -7,7 +7,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/) (opcional — se usado no setup do projeto)
+- [Vite](https://vitejs.dev/)
 
 ## 📌 Funcionalidades
 
