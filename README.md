@@ -46,7 +46,7 @@ Sou desenvolvedor front-end com experiência em React, Vue.js, Laravel, entre ou
 ## 📫 Contato
 
 - Email: pedroleuchs01@gmail.com  
-- Portfólio online: [www.grandesite.com.br](http://www.grandesite.com.br)
+- Portfólio online: [https://myportifolio-omega.vercel.app/](https://myportifolio-omega.vercel.app/)
 
 ---
 
