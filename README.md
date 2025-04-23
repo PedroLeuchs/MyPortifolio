@@ -1,8 +1,3 @@
-Show! Abaixo está uma sugestão de README.md profissional e atrativo para o seu portfólio:
-
----
-
-```markdown
 # 💼 Meu Portfólio
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **Tailwind CSS** e **TypeScript**. O objetivo deste projeto é apresentar minhas habilidades, experiências, projetos e informações de contato de forma moderna, responsiva e acessível.
@@ -41,6 +36,7 @@ npm install
 npm run dev
 ```
 
+
 Acesse no navegador: [http://localhost:5173](http://localhost:5173)
 
 ## 🧠 Sobre mim
@@ -57,6 +53,3 @@ Sou desenvolvedor front-end com experiência em React, Vue.js, Laravel, entre ou
 Sinta-se à vontade para contribuir ou entrar em contato comigo!
 ```
 
----
-
-Se quiser, posso ajustar esse conteúdo com base no que exatamente está implementado no seu portfólio (por exemplo, se tem animações, dark mode, etc.). Quer?
