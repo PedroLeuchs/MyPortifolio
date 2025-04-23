@@ -51,5 +51,5 @@ Sou desenvolvedor front-end com experiência em React, Vue.js, Laravel, entre ou
 ---
 
 Sinta-se à vontade para contribuir ou entrar em contato comigo!
-```
+
 
