@@ -1,3 +1,8 @@
+Show! Abaixo está uma sugestão de README.md profissional e atrativo para o seu portfólio:
+
+---
+
+```markdown
 # 💼 Meu Portfólio
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **Tailwind CSS** e **TypeScript**. O objetivo deste projeto é apresentar minhas habilidades, experiências, projetos e informações de contato de forma moderna, responsiva e acessível.
@@ -7,7 +12,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+- [Vite](https://vitejs.dev/) (opcional — se usado no setup do projeto)
 
 ## 📌 Funcionalidades
 
@@ -34,3 +39,24 @@ npm install
 
 # Inicie o servidor de desenvolvimento
 npm run dev
+```
+
+Acesse no navegador: [http://localhost:5173](http://localhost:5173)
+
+## 🧠 Sobre mim
+
+Sou desenvolvedor front-end com experiência em React, Vue.js, Laravel, entre outras tecnologias. Atualmente curso Análise e Desenvolvimento de Sistemas e estou em constante evolução, sempre buscando novos desafios e aprendizados.
+
+## 📫 Contato
+
+- Email: pedroleuchs01@gmail.com  
+- Portfólio online: [www.grandesite.com.br](http://www.grandesite.com.br)
+
+---
+
+Sinta-se à vontade para contribuir ou entrar em contato comigo!
+```
+
+---
+
+Se quiser, posso ajustar esse conteúdo com base no que exatamente está implementado no seu portfólio (por exemplo, se tem animações, dark mode, etc.). Quer?
