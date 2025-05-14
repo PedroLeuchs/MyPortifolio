@@ -102,7 +102,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="scroll-mt-[9vh] mt-[9vh] h-[91vh] flex lg:flex-row flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="mt-[9vh] scroll-mt-[9vh] lg:h-[91vh] min-h-[91vh] h-auto flex lg:flex-row flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <img
         src="/assets/datail_extra.svg"
@@ -112,7 +112,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
         } drop-shadow-lg-custom`}
       />
 
-      <h1 className="absolute top-10 left-0 right-0 text-center lg:text-4xl md:text-3xl text-2xl">
+      <h1 className="text-start w-4/5 lg:text-5xl md:text-4xl text-3xl">
         {section.name}
       </h1>
 

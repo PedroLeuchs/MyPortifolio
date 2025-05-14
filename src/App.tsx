@@ -22,7 +22,7 @@ function App() {
       {/* Sections */}
       <div
         key="s"
-        className="min-h-screen w-full font-poppins flex flex-col justify-end "
+        className="min-h-screen w-full font-poppins flex flex-col justify-start "
       >
         <HomePage section={sections[0]} language={language} indexImg={0} />
         <AboutPage section={sections[1]} indexImg={1} />

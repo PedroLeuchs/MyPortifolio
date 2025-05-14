@@ -6,7 +6,7 @@ interface DownloadButtonProps {
 
 const DownloadButton: React.FC<DownloadButtonProps> = ({ text }) => {
   const handleDownload = () => {
-    const pdfUrl = text == "Currículo" ? "/Curriculo.pdf" : "Curriculum.pdf";
+    const pdfUrl = text == "Currículo" ? "/Curriculo.pdf" : "/Curriculum.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = `${text} Pedro-Leuchs.pdf`; // Nome que o arquivo terá ao ser baixado
