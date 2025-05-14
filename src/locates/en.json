@@ -1,21 +1,21 @@
 {
   "sections": [
     {
-      "name": "HomePage",
+      "name": "Home",
       "title": ["Welcome"],
-      "text": ["My name is Pedro Leuchs, ", "I'm a front-end developer."],
+      "text": ["My name is Pedro Leuchs,", " I am a front-end developer."],
       "url": "#home"
     },
     {
       "name": "About",
-      "title": ["About me", "Soft skills", "Hard skills"],
+      "title": ["About Me", "Soft Skills", "Hard Skills"],
       "text": [
-        "My name is Pedro, I am 20 years old, and I live in Toledo, Paraná, Brazil. I have a technical degree in Information Technology from IFPR – Assis Chateaubriand Campus, and I am in my final semester of the Systems Analysis and Development program at Biopark Educação. I intend to pursue a career as a Front-End Developer.",
-        "I am a passionate web developer focused on front-end solutions, with strong expertise in React and Tailwind. I use HTML, CSS, and JavaScript to create dynamic and responsive user interfaces that deliver exceptional user experiences. My goal is to turn ideas into efficient digital solutions that engage and inspire.",
-        "In addition to my technical skills, I value problem-solving, teamwork, and clear communication, always striving for innovation and quality in every project. My goal is to develop functional and intuitive applications that make a difference.",
+        "My name is Pedro, I am 20 years old and I live in Toledo, Paraná, Brazil. I hold a technical degree in IT from IFPR – Campus Assis Chateaubriand and I am in the final semester of the Systems Analysis and Development course at Biopark Educação. I intend to pursue a career as a Front-End Developer.",
+        "I am a web developer passionate about front-end solutions, with strong expertise in React and Tailwind. I use HTML, CSS, and JavaScript to create dynamic and responsive interfaces that deliver exceptional user experiences. My goal is to turn ideas into efficient digital solutions that engage and inspire.",
+        "In addition to technical skills, I value problem-solving, teamwork, and clear communication, always striving for innovation and quality in every project. My objective is to develop functional and intuitive applications that make a difference.",
         "Specialties"
       ],
-      "url": "#about"
+      "url": "#services"
     },
     {
       "name": "Projects",
@@ -24,26 +24,33 @@
         "Close",
         "Access this project",
         "Learn more",
-        " In this project, I used GSAP for the first time, exploring animations to enhance my front-end skills. Developed with Next.js, Tailwind CSS, and JavaScript, I focused on performance, user experience, and accessibility, which inspired me to dive deeper into this field.",
-        "I developed the landing page for Anatonelly Tech, enhancing my skills with GSAP and exploring new techniques that improved the project's quality. I used JavaScript, Next.js, and Tailwind CSS, focusing on performance, responsiveness, and smooth animations to enhance the user experience.",
-        " At Anatonelly LLC, I used JavaScript with Next.js and Tailwind CSS, applying GSAP to create dynamic animations on the page. This project allowed me to further refine my front-end skills, exploring advanced animation techniques and performance optimization."
+        " In this project, I used GSAP for the first time, exploring animations to enhance my front-end skills. Developed with Next.js, Tailwind CSS, and JavaScript, I focused on performance, user experience, and accessibility, which motivated me to delve deeper into this field.",
+        " I developed the landing page for Anatonelly Tech, enhancing my skills with GSAP and exploring new techniques that raised the quality of the project. I used JavaScript, Next.js, and Tailwind CSS, focusing on performance, responsiveness, and smooth animations to improve user experience.",
+        " At Anatonelly LLC, I used JavaScript with Next.js and Tailwind CSS, applying GSAP to create dynamic animations on the page. This project allowed me to further refine my front-end skills by exploring advanced animation techniques and performance optimization."
       ],
-      "url": "#projects"
+      "url": "#portfolio"
     },
     {
       "name": "Experiences",
-      "title": ["Global Transportes", "STW - Automação", "Experiences"],
+      "title": [
+        "Global Transportes",
+        "STW - Automation",
+        "Consisa - Systems",
+        "Experiences"
+      ],
       "text": [
         "Front-End Developer • Dec 2023 – Jul 2024",
-        "My professional experience includes an internship as a front-end developer, where I worked with technologies such as JSX and TSX using the Next.js framework, as well as employing Tailwind CSS for styling. During this internship, I developed a solid foundation in web development, enhancing my skills in creating efficient and responsive user interfaces. This opportunity also allowed me to collaborate closely with other developers, designers, and stakeholders, strengthening my communication and teamwork abilities.",
+        "My professional experience includes an internship as a front-end developer, where I worked with technologies like JSX and TSX using the Next.js framework, along with Tailwind CSS for styling. During this internship, I built a solid foundation in web development, improving my skills in creating efficient and responsive user interfaces. This opportunity also allowed me to collaborate closely with other developers, designers, and stakeholders, strengthening my communication and teamwork skills.",
         "Full-Stack Developer • Aug 2024 – Feb 2025",
-        "I worked on the development of complete solutions using Laravel and Vue.js, covering everything from back-end data modeling and queries to the front-end interface. Later, I focused on front-end development for a project using React and Tailwind CSS. More recently, I joined the team responsible for implementing the Siemens system in a malting plant of Agraria, contributing to the digitization and automation of processes."
+        "I worked on the development of full solutions with Laravel and Vue.js, covering everything from data modeling and queries on the backend to the frontend interface. Later, I focused on front-end development of a project using React and Tailwind CSS. More recently, I joined the team responsible for implementing the Siemens system in a malt factory of Agraria, contributing to the digitization and automation of processes.",
+        "Full-Stack Developer • Feb 2025 – Present",
+        "I currently work as a software development intern at Consisa Sistemas, where I am responsible for handling and resolving tasks related to the maintenance and evolution of corporate systems. I work on both the frontend and backend, using AngularJS with Bootstrap for the interface and Java for business logic and API integration. This experience has significantly contributed to my technical growth, as well as enhanced my analytical skills, problem-solving abilities, and collaboration with the development team."
       ],
-      "url": "#experences"
+      "url": "#about"
     },
     {
       "name": "Contact",
-      "title": ["Pedro Leuchs", "Social Midia", "Email", "Phone", "Curriculum"],
+      "title": ["Pedro Leuchs", "Social Media", "Email", "Phone", "Resume"],
       "text": ["pedroleuchs01@gmail.com", "+55 (44) 92002-7613"],
       "url": "#contact"
     }

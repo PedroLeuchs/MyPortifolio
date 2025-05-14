@@ -15,10 +15,10 @@ const Card: React.FC<ExperenciePageProps> = ({ cardItems }) => {
     <div className="group relative lg:w-[25vw] w-[80vw] h-auto bg-[#191c29] text-[#58c7fa] cursor-pointer rounded-lg p-7 flex flex-col items-start gap-5 transition-all duration-500">
       <h1 className="text-2xl font-semibold">{cardItems.titleCard}</h1>
       <div className="p-2 gap-4 flex flex-col">
-        <h2 className="text-base font-extrabold text-indigo-600">
+        <h2 className="text-sm font-extrabold text-indigo-600">
           {cardItems.subTitleCard}
         </h2>
-        <p className=" text-base font-medium text-white text-justify transition-all duration-500 ease-in-out">
+        <p className=" text-sm font-medium text-white text-justify transition-all duration-500 ease-in-out">
           {cardItems.textCard}
         </p>
       </div>

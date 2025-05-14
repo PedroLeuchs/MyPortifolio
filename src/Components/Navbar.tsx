@@ -56,10 +56,11 @@ const Navbar: React.FC<NavbarProps> = ({ sections, setLanguage, language }) => {
             >
               <a
                 href={section.url}
-                className={`hover:text-gray-400 transition-all duration-300 w-full h-full flex items-center justify-center ${
+                onClick={() => setActiveSection(section.url.substring(1))}
+                className={`transition-all duration-300 w-full h-full flex items-center justify-center ${
                   activeSection === section.url.substring(1)
-                    ? "font-semibold"
-                    : ""
+                    ? "text-white font-semibold"
+                    : "text-gray-300"
                 }`}
               >
                 {section.name}

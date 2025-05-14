@@ -88,7 +88,7 @@ const HomePage: React.FC<HomePageProps> = ({ section, language, indexImg }) => {
     <section
       id={section.url.substring(1)}
       key={section.url}
-      className="font-poppins max-w-screen min-h-[91vh] flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="font-poppins max-w-screen scroll-mt-[9vh] h-[91vh] flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <img
         src="/assets/datail_extra.svg"
@@ -97,7 +97,8 @@ const HomePage: React.FC<HomePageProps> = ({ section, language, indexImg }) => {
           indexImg % 2 === 0 ? "rotate-180 " : ""
         }`}
       />
-      <div className="w-full h-1/3 flex items-center justify-center backdrop-blur-[15px] bg-neutral-700/40 py-20">
+
+      <div className="w-full h-1/3 flex items-center justify-center backdrop-blur-[10px] bg-neutral-700/50 shadow-neutral-900 shadow-lg">
         <div className="lg:w-1/3 w-full lg:px-0 px-5 h-full flex items-start justify-center flex-col">
           <div className="lg:text-6xl text-4xl font-bold text-white flex text-start items-start justify-start">
             {displayTextTitle}

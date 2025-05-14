@@ -32,12 +32,19 @@
     },
     {
       "name": "Experiências",
-      "title": ["Global Transportes", "STW - Automação", "Experiências"],
+      "title": [
+        "Global Transportes",
+        "STW - Automação",
+        "Consisa - Sistemas",
+        "Experiências"
+      ],
       "text": [
-        "Desenvolvedor Front-End• Dez 2023 – Jul 2024",
+        "Desenvolvedor Front-End • Dez 2023 – Jul 2024",
         "Minha experiência profissional inclui um estágio como desenvolvedor front-end, onde trabalhei com tecnologias como JSX e TSX utilizando o framework Next.js, além de empregar o Tailwind CSS para estilização. Durante este estágio, desenvolvi uma base sólida em desenvolvimento web, aprimorando minhas habilidades em criar interfaces de usuário eficientes e responsivas. Esta oportunidade também me permitiu colaborar estreitamente com outros desenvolvedores, designers e stakeholders, fortalecendo minha capacidade de comunicação e trabalho em equipe.",
         "Desenvolvedor Full-Stack • Ago 2024 – Fev 2025",
-        "Atuei no desenvolvimento de soluções completas com Laravel e Vue.js, abrangendo desde a modelagem e consulta de dados no back-end até a interface no front-end. Posteriormente, foquei no desenvolvimento front-end de um projeto utilizando React e Tailwind CSS. Mais recentemente, integrei a equipe responsável pela implementação do sistema da Siemens em uma maltaria da Agraria, contribuindo para a digitalização e automação dos processos."
+        "Atuei no desenvolvimento de soluções completas com Laravel e Vue.js, abrangendo desde a modelagem e consulta de dados no back-end até a interface no front-end. Posteriormente, foquei no desenvolvimento front-end de um projeto utilizando React e Tailwind CSS. Mais recentemente, integrei a equipe responsável pela implementação do sistema da Siemens em uma maltaria da Agraria, contribuindo para a digitalização e automação dos processos.",
+        "Desenvolvedor Full-Stack • Fev 2025 – Atualmente",
+        "Atualmente atuo como estagiário em desenvolvimento de software na Consisa Sistemas, onde sou responsável por receber e solucionar demandas relacionadas à manutenção e evolução de sistemas corporativos. Trabalho tanto no front-end quanto no back-end, utilizando AngularJS com Bootstrap para a interface e Java no desenvolvimento da lógica de negócio e integração com APIs. Essa experiência tem contribuído significativamente para meu amadurecimento técnico, além de reforçar minha capacidade de análise, resolução de problemas e colaboração com a equipe de desenvolvimento."
       ],
       "url": "#about"
     },

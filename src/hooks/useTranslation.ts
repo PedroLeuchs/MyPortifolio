@@ -18,7 +18,7 @@ interface Translations {
 const translations: Record<string, Translations> = { en, pt };
 
 export function useTranslation() {
-  const [language, setLanguage] = useState<"en" | "pt">("en");
+  const [language, setLanguage] = useState<"en" | "pt">("pt");
   const [sections, setSections] = useState<Section[]>(
     translations[language].sections
   );

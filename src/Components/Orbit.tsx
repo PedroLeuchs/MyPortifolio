@@ -7,7 +7,7 @@ interface OrbitProps {
 
 const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
   const [isClient, setIsClient] = useState(false);
-  const radius = 220;
+  const radius = 360;
 
   useEffect(() => {
     setIsClient(true);
@@ -16,7 +16,7 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
   if (!isClient) return null;
 
   return (
-    <div className="relative lg:w-[500px] lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex items-center justify-center rounded-full border-2 border-indigo-500 ">
+    <div className="relative lg:w-[500px] lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] flex items-center justify-center rounded-full border-0 border-indigo-500 ">
       {/* Texto Central */}
       <div className="absolute text-white text-2xl font-bold">
         {centralText}
@@ -36,10 +36,10 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
                 -(angle * 180) / Math.PI
               }deg)`,
               animation: `orbitAnimation  ${
-                elements.length * 4
+                elements.length * 6
               }s linear infinite`,
               animationDelay: `-${
-                (index / elements.length) * (elements.length * 4)
+                (index / elements.length) * (elements.length * 6)
               }s`,
             }}
           >

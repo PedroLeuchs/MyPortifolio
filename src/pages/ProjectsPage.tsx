@@ -46,7 +46,7 @@ const AboutPage: React.FC<ProjectsPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="min-h-[91vh] w-full flex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform "
+      className="scroll-mt-[9vh] mt-[9vh] h-[91vh] w-full lg:flex-row flex-colflex items-center justify-center text-white text-3xl font-bold transition-all duration-700 ease-in-out transform "
     >
       <img
         src="./assets/datail_extra.svg"
@@ -55,6 +55,11 @@ const AboutPage: React.FC<ProjectsPageProps> = ({ section, indexImg }) => {
           indexImg % 2 === 0 ? "rotate-180 " : ""
         } drop-shadow-lg-custom`}
       />
+
+      <h1 className="absolute top-10 left-0 right-0 text-center lg:text-4xl md:text-3xl text-2xl">
+        {section.name}
+      </h1>
+
       <div className="w-full h-full flex flex-col items-center justify-center gap-20">
         <CarouselModal items={items} section={sectionProject} />
       </div>

@@ -16,7 +16,7 @@ const Orbit: React.FC<OrbitProps> = ({ centralText, elements }) => {
   if (!isClient) return null;
 
   return (
-    <div className="relative lg:w-[500px] md:w-[400px] w-[260px] aspect-square flex items-center justify-center rounded-full border-2 border-indigo-500 ">
+    <div className="relative lg:w-[500px] md:w-[400px] w-[300px] aspect-square flex items-center justify-center rounded-full ">
       {/* Texto Central */}
       <div className="absolute text-white text-xl font-bold">{centralText}</div>
 
