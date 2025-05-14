@@ -41,7 +41,7 @@ Acesse no navegador: [http://localhost:5173](http://localhost:5173)
 
 ## 🧠 Sobre mim
 
-Sou desenvolvedor front-end com experiência em React, Vue.js, Laravel, entre outras tecnologias. Atualmente curso Análise e Desenvolvimento de Sistemas e estou em constante evolução, sempre buscando novos desafios e aprendizados.
+Sou desenvolvedor front-end com experiência em React, Vue.js, Angular.Js, entre outras tecnologias. Atualmente curso Análise e Desenvolvimento de Sistemas e estou em constante evolução, sempre buscando novos desafios e aprendizados.
 
 ## 📫 Contato
 
