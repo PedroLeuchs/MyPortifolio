@@ -102,7 +102,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
     <section
       key={section.url}
       id={section.url.substring(1)}
-      className="mt-[9vh] scroll-mt-[9vh] lg:h-[91vh] min-h-[91vh] h-auto flex lg:flex-row flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
+      className="mt-[9vh] scroll-mt-[9vh] lg:h-[91vh] min-h-[91vh] h-auto flex flex-col items-center justify-start text-white text-3xl font-bold transition-all duration-700 ease-in-out transform bg-neutral-800"
     >
       <img
         src="/assets/datail_extra.svg"
@@ -115,16 +115,17 @@ const AboutPage: React.FC<AboutPageProps> = ({ section, indexImg }) => {
       <h1 className="text-start w-4/5 lg:text-5xl md:text-4xl text-3xl">
         {section.name}
       </h1>
-
-      <div className="lg:w-1/2 w-full h-[50vh] flex flex-col lg:items-end items-center justify-center gap-20 lg:bg-none bg-neutral-800/20 lg:backdrop-blur-none backdrop-blur-sm">
-        <AccordionDemo titles={section.title} texts={section.text} />
-      </div>
-      <div className="lg:w-1/2 w-full h-[50vh] flex items-center justify-center lg:bg-none bg-neutral-800/20 lg:backdrop-blur-none backdrop-blur-sm">
-        <div className="lg:flex hidden">
-          <Orbit centralText={section.text[3]} elements={elements} />
+      <div className="w-full h-full flex lg:flex-row flex-col">
+        <div className="lg:w-1/2 w-full h-[50vh] flex flex-col lg:items-end items-center justify-center gap-20 lg:bg-none bg-neutral-800/20 lg:backdrop-blur-none backdrop-blur-sm">
+          <AccordionDemo titles={section.title} texts={section.text} />
         </div>
-        <div className="lg:hidden flex">
-          <OrbitMobile centralText={section.text[3]} elements={elements} />
+        <div className="lg:w-1/2 w-full h-[50vh] flex items-center justify-center lg:bg-none bg-neutral-800/20 lg:backdrop-blur-none backdrop-blur-sm">
+          <div className="lg:flex hidden">
+            <Orbit centralText={section.text[3]} elements={elements} />
+          </div>
+          <div className="lg:hidden flex">
+            <OrbitMobile centralText={section.text[3]} elements={elements} />
+          </div>
         </div>
       </div>
     </section>
